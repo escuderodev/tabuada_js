@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main_container">
+        <form action="\index.html" class="form">
+            <h1>Tabuada</h1>
+            <label for="tabuada">Digite a tabuada desejada: </label>
+            <input type="text" name="tabuada" id="tabuada" required>
+            <div class="botoes">
+                <button class="calcular">Calcular</button>
+                <button class="limpar" type="reset">Limpar</button>
+            </div>
+        </form>
+        <section class="resultado">
+            <p id="exibirResultado"></p>
+        </section>
+        <section>
+            <p class="creditos">Desenvolvido por <a href="https://escuderodev.com.br/" target="_blank">EscuderoDev</a> - 2023</p>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
